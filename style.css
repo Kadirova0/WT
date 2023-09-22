@@ -1,0 +1,36 @@
+.product-container i {
+    font-size: 25px;
+    color: #495b8a;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-right: 290px;
+}
+.product {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #8bb4b6;
+}
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+.basketTotal{
+    width: 10%;
+}
+.product img{
+    width: 75px;
+    object-fit: contain;
+    
+}
+.product i {
+    cursor: pointer;
+}
+.quantity i {
+    cursor: pointer;
+    margin-right: 250px;
+}
